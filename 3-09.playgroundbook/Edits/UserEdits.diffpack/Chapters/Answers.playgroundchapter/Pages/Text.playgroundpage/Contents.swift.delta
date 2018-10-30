@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created on Oct 30 
+// Created by Nicholas Pasco-Arnone
+// Created for ICS3U
+// This program will show the uppercase letters next to all the lowercase letters
+
+
+var bigletter = UnicodeScalar(65)
+var smallletter = UnicodeScalar(97)
+
+for count in 65 ... 90 {
+    
+    bigletter = UnicodeScalar(count)
+    
+    for count2 in 97 ... 122 {
+        
+        smallletter = UnicodeScalar(count2)
+    
+        show("\(bigletter!) -&gt; \(smallletter!)")
+    }
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 452}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 72}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
